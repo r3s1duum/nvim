@@ -23,10 +23,6 @@ map("n", "<leader>qq", "<cmd>qa<cr>", { desc = "Quit All" })
 -- Clear search on escape
 map("n", "<Esc>", "<cmd>noh<cr><Esc>", { desc = "Clear Search Highlight" })
 
--- Telescope (LazyVim-style find shortcuts)
-map("n", "<leader><space>", "<cmd>Telescope find_files<cr>", { desc = "Find Files" })
-map("n", "<leader>sg", "<cmd>Telescope live_grep<cr>", { desc = "Live Grep" })
-map("n", "<leader>sb", "<cmd>Telescope buffers<cr>", { desc = "Buffers" })
-map("n", "<leader>sh", "<cmd>Telescope help_tags<cr>", { desc = "Help Tags" })
+-- Telescope keymaps: see plugins/telescope.lua
 
 -- Explorer: set in plugins/nvim-tree.lua after setup
